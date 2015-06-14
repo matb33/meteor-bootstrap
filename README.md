@@ -7,6 +7,12 @@ You can add exactly the components you need from Bootstrap using `meteor add`.
 If you develop using an all-packages methodology, then any of your packages that
 need very specific bootstrap functionality can `api.use` them.
 
+### Examples
+
+1. `meteor add matb33:bootstrap-full` -- will give you the complete Bootstrap experience
+
+2. `meteor add matb33:bootstrap-buttons` -- will only load the minimum bootstrap styles to be able to render bootstrap button styles
+
 ## Package-collection list
 
 - `matb33:bootstrap-full` (adding only this package will pull in all other packages)
