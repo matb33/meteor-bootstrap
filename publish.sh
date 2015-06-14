@@ -27,7 +27,8 @@ done
 			PACKAGE_NAME="$(basename "$PACKAGE_PATH")"
 			echo -e "--- \033[1;35m$PACKAGE_NAME\033[0m ---"
 
-			echo cd $PACKAGE_PATH && meteor publish $CREATE_FLAG
+			cd $PACKAGE_PATH
+			meteor publish $CREATE_FLAG
 		fi
 	done
 ); if [[ $? > 0 ]]; then echo -e "\033[0;31mFAIL\033[0m"; exit 1; else echo -e "\033[0;32mOK\033[0m"; fi
