@@ -11,6 +11,8 @@ need very specific bootstrap functionality can `api.use` them.
 
 - `matb33:bootstrap-full` (adding only this package will pull in all other packages)
 
+---
+
 - `matb33:bootstrap-affix-js`
 - `matb33:bootstrap-alert-js`
 - `matb33:bootstrap-alerts`
