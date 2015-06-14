@@ -1,7 +1,7 @@
 Package.describe({
-  summary: "Bootstrap: use all styles and js",
-  version: "3.3.4",
-  git: "https://github.com/matb33/meteor-bootstrap.git"
+  summary: 'Bootstrap: use all styles and js',
+  version: '3.3.4',
+  git: 'https://github.com/matb33/meteor-bootstrap.git'
 });
 
 Package.onUse(function (api) {
