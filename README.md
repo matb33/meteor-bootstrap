@@ -63,6 +63,11 @@ need very specific bootstrap functionality can `api.use` them.
 - `matb33:bootstrap-type`
 - `matb33:bootstrap-wells`
 
+## Notes
+
+- It's currently not possible to customize LESS variables with this approach,
+but it likely will be in the near future: https://meteor.hackpad.com/Improvements-to-LESS-and-other-CSS-preprocessors-fqDPbgOH8Fn
+
 ## Maintainers
 
 - Mathieu Bouchard ([matb33](https://github.com/matb33))
