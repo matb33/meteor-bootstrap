@@ -1,8 +1,8 @@
 jquery@1.11.3_2
 less@1.0.14
-matb33:bootstrap-base@3.3.4
-matb33:bootstrap-modal-js@3.3.4
-matb33:bootstrap-modals@3.3.4
-matb33:bootstrap-transition-js@3.3.4
+matb33:bootstrap-base
+matb33:bootstrap-modal-js
+matb33:bootstrap-modals
+matb33:bootstrap-transition-js
 meteor@1.1.6
 underscore@1.0.3
