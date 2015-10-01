@@ -1,4 +1,4 @@
-// NOTE: this package required moving several mixins to mixins.import.less, as
+// NOTE: this package required moving several mixins to mixins.less, as
 // they are used in other bootstrap packages
 
 Package.describe({
@@ -10,11 +10,8 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom('1.1.0.2');
   api.use('matb33:bootstrap-base@3.3.4', 'client');
   api.use('less', 'client');
-  api.addFiles([
-  	'mixins.import.less',
-  	'forms.less'
-  ], 'client');
+  api.addFiles('mixins.less', 'client', {isImport: true});
+  api.addFiles('forms.less', 'client');
 });

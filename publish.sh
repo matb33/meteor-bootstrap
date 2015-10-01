@@ -34,6 +34,7 @@ function publish {
 		echo -e "--- \033[1;35m$PACKAGE_NAME\033[0m ---"
 
 		cd $PACKAGE_PATH
+		rm -f .versions
 		meteor publish $FLAG
 	fi
 }

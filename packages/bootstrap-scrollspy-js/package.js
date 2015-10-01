@@ -7,7 +7,6 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom('1.1.0.2');
   api.use('matb33:bootstrap-base@3.3.4', 'client');
   api.use('jquery', 'client');
   api.addFiles('scrollspy.js', 'client');

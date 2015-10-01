@@ -7,15 +7,16 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom('1.1.0.2');
   api.use('matb33:bootstrap-base@3.3.4', 'client');
   api.use('less', 'client');
-  api.addFiles([
+  api.addAssets([
     'glyphicons-halflings-regular.eot',
     'glyphicons-halflings-regular.svg',
     'glyphicons-halflings-regular.ttf',
     'glyphicons-halflings-regular.woff',
-    'glyphicons-halflings-regular.woff2',
+    'glyphicons-halflings-regular.woff2'
+  ], 'client');
+  api.addFiles([
     'glyphicons.less'
   ], 'client');
 });
