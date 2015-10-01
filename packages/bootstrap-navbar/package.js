@@ -1,7 +1,7 @@
 Package.describe({
   name: 'matb33:bootstrap-navbar',
-  summary: 'Bootstrap: navbar',
-  version: '3.3.4',
+  summary: 'Bootstrap 3.3.4: navbar',
+  version: '10.0.0',
   git: 'https://github.com/matb33/meteor-bootstrap.git',
   documentation: 'README.md'
 });

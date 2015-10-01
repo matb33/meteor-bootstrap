@@ -1,7 +1,7 @@
 Package.describe({
   name: 'matb33:bootstrap-tables',
-  summary: 'Bootstrap: tables',
-  version: '3.3.4',
+  summary: 'Bootstrap 3.3.4: tables',
+  version: '10.0.0',
   git: 'https://github.com/matb33/meteor-bootstrap.git',
   documentation: 'README.md'
 });

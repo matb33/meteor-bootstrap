@@ -1,7 +1,7 @@
 Package.describe({
   name: 'matb33:bootstrap-component-animations',
-  summary: 'Bootstrap: component animations',
-  version: '3.3.4',
+  summary: 'Bootstrap 3.3.4: component animations',
+  version: '10.0.0',
   git: 'https://github.com/matb33/meteor-bootstrap.git',
   documentation: 'README.md'
 });

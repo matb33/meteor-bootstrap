@@ -1,7 +1,7 @@
 Package.describe({
   name: 'matb33:bootstrap-labels',
-  summary: 'Bootstrap: labels',
-  version: '3.3.4',
+  summary: 'Bootstrap 3.3.4: labels',
+  version: '10.0.0',
   git: 'https://github.com/matb33/meteor-bootstrap.git',
   documentation: 'README.md'
 });

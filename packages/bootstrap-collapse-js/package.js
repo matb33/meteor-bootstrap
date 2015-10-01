@@ -1,7 +1,7 @@
 Package.describe({
   name: 'matb33:bootstrap-collapse-js',
-  summary: 'Bootstrap: collapse js',
-  version: '3.3.4',
+  summary: 'Bootstrap 3.3.4: collapse js',
+  version: '10.0.0',
   git: 'https://github.com/matb33/meteor-bootstrap.git',
   documentation: 'README.md'
 });
