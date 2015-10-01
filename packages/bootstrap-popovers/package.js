@@ -7,6 +7,7 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
+  api.versionsFrom('1.2.0.2');
   api.use('matb33:bootstrap-base@3.3.4', 'client');
   api.use(['matb33:bootstrap-tooltip@3.3.4', 'jquery', 'less'], 'client');
   api.addFiles(['popover.js', 'popovers.less'], 'client');

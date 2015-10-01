@@ -7,6 +7,7 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
+  api.versionsFrom('1.2.0.2');
   api.use('less', 'client');
   api.addFiles([
     'mixins/alerts.less',
